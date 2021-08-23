@@ -1,0 +1,124 @@
+@media only screen and (max-width: 767px) {
+  .row.topbar {
+    padding-bottom: 0;
+  }
+  .content {
+    padding-top: 160px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 3px solid #333333;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+    -webkit-box-shadow: 0 2px 4px 0 rgb(0 0 0 / 16%);
+    -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 16%);
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: 19em;
+    overflow-y: auto;
+  }
+  .nav > .nav-header {
+    display: inline !important;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  #third-section .img-btn-content img{
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .nav > .nav-links {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}
+
+@media only screen and (max-width: 991.5px) {
+  #first-section .items p{
+    padding: 10px 0;
+  }
+}
+@media only screen and (max-width: 1199.5px) {
+  #fourth-section .featured-carousel-2 img{
+    width: 9em;
+  }
+  #fourth-section .featured-carousel-2 .cards-wrap{
+    padding: 110px 30px 30px 30px;
+  }
+}
+@media only screen and (max-width: 767.5px) {
+  #fifth-section .item{
+    margin: 0 30px;
+  }
+  #fifth-section .featured-carousel-3 .card-content {
+    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.70), rgba(163, 141, 101, 0.99)), url(../images/man-riding-mountain-bike-low-angle.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+  }
+  #fifth-section .item-content {
+    padding-right: calc(var(--bs-gutter-x) * .5);
+  }
+  #fifth-section .item-figure {
+    padding-left: calc(var(--bs-gutter-x) * .5);
+  }
+  #fifth-section .img-card{
+    height: 350px;
+    border-top-right-radius: unset;
+    border-bottom-left-radius: 10px;
+  }
+  #fifth-section .owl-carousel .owl-dots{
+    margin-top: -45px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 767.5px) {
+  #footer .footer-info .sec-col, #footer .footer-info .third-col{
+    padding-top: 2.5em;
+  }
+}
